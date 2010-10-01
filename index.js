@@ -1,8 +1,7 @@
 var http	= require('http'),
 	parse	= require('url').parse,
 	spawn	= require('child_process').spawn,
-	jsdom	= require('jsdom'),
-	spawn	= require('child_process').spawn;
+	jsdom	= require('jsdom');
 	
 var map = function(arr, func) {
 	var i,
@@ -57,8 +56,8 @@ this.server = http.createServer(function(request, response) {
 		data		= [];
 		
 	if (query.data) {
-		map(query.data.split(','), function(str) {
-			data.push(parseFloat(str));
+		map(query.data.split(','), function(i) {
+			data.push(parseFloat(this));
 		});
 	}
 	
