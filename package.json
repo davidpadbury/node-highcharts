@@ -1,0 +1,16 @@
+{
+  "name": "node-highcharts",
+  "description": "Node based rendering of highcharts",
+  "version": "0.0.1",
+  "author": "David Padbury <david@davidpadbury.com>",
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/davidpadbury/node-highcharts.git" 
+  },
+  "keywords": ["highcharts", "charts"],
+  "dependencies": {
+    "jsdom": ">= 0.1.9"
+  },
+  "main": "./lib/node-highcharts",
+  "engines": { "node": ">= 0.3.0" }
+}
