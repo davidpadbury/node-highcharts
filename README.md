@@ -42,3 +42,5 @@ There's a few bits to do before the library will be ready for use.
 1. Cleanup jsdom window instance correctly.
 1. Cache window so we don't load jQuery+highcharts for every render.
 1. Use a local jQuery.
+1. Update to latest Highcharts version.
+1. Investigate using [CanVG](http://code.google.com/p/canvg/) and [node-canvas](https://github.com/LearnBoost/node-canvas) to render with no dependencies on the environment.
