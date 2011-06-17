@@ -9,7 +9,8 @@ var fs = require('fs'),
 	options = {
 		chart: {
 			width: 300,
-			height: 300
+			height: 300,
+			defaultSeriesType: 'bar'
 		},
 		legend: {
 			enabled: false
@@ -32,6 +33,8 @@ highcharts.render(options, function(err, data) {
 	}
 });
 ````
+
+<img src="http://i.imgur.com/eOvgU.png" alt="Bar Chart" />
 
 ## Todo
 There's a few bits to do before the library will be ready for use.
