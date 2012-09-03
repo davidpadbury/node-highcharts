@@ -65,12 +65,11 @@ var highcharts = require('./lib/node-highcharts'),
             }]
         };
 
-highcharts.render(options, function(err, data) {
+highcharts.renderSvg(options, function(err, data) {
     if (err) {
         console.log('Error: ', err);
     } else {
-        fs.writeFile('chart.png', data, function() {
-            console.log('Written to chart.png');
-        });
+        console.log(data)
+        process.exit()
     }
 });
