@@ -1,3 +1,7 @@
+# Obsolete Warning
+
+The initial work demonstrated here is now getting on for several years old with no signficant updates. There is now likely much better ways of achieving these objectives and I strongly suggest not using this as a base. [HighCharts](http://www.highcharts.com) now provides details on [their recommended approach](http://www.highcharts.com/component/content/article/2-news/52-serverside-generated-charts) to render entirely on the server.
+
 # node-highcharts
 
 An example library demonstrating how a browser based JavaScript graphing library (Highcharts) can be used from Node.
